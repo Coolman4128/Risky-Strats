@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://ck8nr66oiidmt"]
+
+[ext_resource type="Script" path="res://stack.gd" id="1_bva40"]
+[ext_resource type="Texture2D" uid="uid://daar7pupe26te" path="res://circle.png" id="2_0kw6y"]
+
+[node name="stack" type="Node2D"]
+script = ExtResource("1_bva40")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_0kw6y")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -21.0
+offset_top = -12.0
+offset_right = 19.0
+offset_bottom = 11.0

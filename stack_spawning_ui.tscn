@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=3 uid="uid://dsre6djg1n4uq"]
+
+[ext_resource type="Script" path="res://stack_spawning_ui.gd" id="1_gr48m"]
+
+[node name="Stack_Spawning_UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gr48m")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_top = 542.0
+offset_right = 1152.0
+offset_bottom = 649.0
+alignment = 1
+
+[node name="Button" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "10"
+
+[node name="Button2" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "100"
+
+[node name="Button3" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "1000"
+
+[node name="Button4" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "10000"
+
+[node name="stacks" type="Node2D" parent="."]
